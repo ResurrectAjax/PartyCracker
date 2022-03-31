@@ -1,0 +1,82 @@
+# Customize the particle effects
+# particle: the name of the particle type you want to use
+# color: the color of the particle (only works with particles that can be colored)
+# offset: the size of the explosion
+# velocity: how fast the particles will fly through the air
+# amount: amount of particles you want to use
+ParticleEffects:
+  particle1:
+    particle: REDSTONE
+    color: '#fffff'
+    offset: 2
+    velocity: 1
+    amount: 2
+  particle2:
+    particle: SMOKE_LARGE
+    color: '#fffff'
+    offset: 0
+    velocity: 1
+    amount: 1
+# Customize the sound effect of the particle explosion
+# sound: the name of the sound you want to use
+# volume: adjust the volume of the sound
+# pitch: change the pitch of the sound
+SoundEffects:
+  sound1:
+    sound: BLOCK_END_GATEWAY_SPAWN
+    volume: 2.0
+    pitch: 1.0
+# Customize the party crackers
+# name: the name of the custom party cracker
+# shinyeffect: whether the item has a shiny effect
+# material: the material of the item
+# explodedelay: delay in seconds until explosion
+# lore: the lore of the item
+# particle: the custom particle you want to use (leave empty for random)
+# sound: the custom sound you want to use (leave empty for random)
+# rewards: the item type, amount and chance of getting it
+PartyCrackers:
+  cracker1:
+    name: "&6&lCracker1"
+    shinyeffect: true
+    material: SLIME_BALL
+    explodedelay: 2
+    lore:
+    - This is a test
+    rewards:
+      DIAMOND:
+        amount: 3
+        chance: 30%
+      IRON_INGOT:
+        amount: 16
+        chance: 60%
+  cracker2:
+    name: "&6&lCracker2"
+    shinyeffect: true
+    material: SLIME_BALL
+    explodedelay: 2
+    lore:
+    - This is a test
+    particle: particle1
+    sound: sound1
+    rewards:
+      DIAMOND:
+        amount: 1-4
+        chance: 30%
+      IRON_INGOT:
+        amount: 16
+        chance: 60%
+  cracker3:
+    name: "&6&lCracker1"
+    shinyeffect: true
+    material: SLIME_BALL
+    explodedelay: 2
+    lore:
+    - This is a test
+    rewards:
+      DIAMOND:
+        amount: 3
+        chance: 40%
+      IRON_INGOT:
+        amount: 16
+        chance: 60%

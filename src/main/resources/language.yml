@@ -1,0 +1,18 @@
+Command:
+  Reload:
+    Message: '&bPartyCrackers &8: &eConfig reloaded.'
+  Error:
+    ByConsole:
+      Message: '&bPartyCrackers &8: &eThat command has to be executed by a player.'
+    NotExist:
+      Message: '&bPartyCrackers &8: &eThat command doesn''t exist.'
+    BadSyntax:
+      Message: '&bPartyCrackers &8: &ePlease do %Syntax% instead.'
+    NoPermission:
+      Message: '&bPartyCrackers &8: &eYou don''t have permission to execute this command.'
+    SpecialCharacters:
+      Message: '&bPartyCrackers &8: &ePlease don''t use any special characters.'
+  PartyCracker:
+    NotExist:
+      Message: '&bPartyCrackers &8: &eThat party cracker doesn''t exist.'
+      

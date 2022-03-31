@@ -1,0 +1,12 @@
+main: Main.Main
+name: PartyCracker
+version: 1.0.0
+author: ResurrectAjax
+description: Plugin for creating party crackers
+api-version: 1.18
+
+commands:
+  PartyCracker:
+    description: run a party cracker command
+    usage: /<command>
+    aliases: pc
